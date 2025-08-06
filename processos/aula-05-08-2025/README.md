@@ -76,17 +76,17 @@ Curiosidade: daemons = “espíritos” no SO.
 
 ## Comandos vistos em aula:
 
-| Comando                              | Função                                                             | Observação                                                      |
-|--------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------|
-| `time ls`                             | Executa `ls` e mede o tempo (real, user, sys)                     | Mede desempenho do comando                                      |
-| `sleep 2`                             | Suspende o terminal por 2 segundos                                | Útil para atrasos em scripts                                    |
-| `sleep 5 ; echo "Olá"`                | Aguarda 5s e depois exibe "Olá"                                   | `;` executa comandos em sequência                               |
-| `(sleep 5 ; echo "Olá") &`            | Aguarda 5s, exibe "Olá" e roda em background                      | `&` permite usar o terminal enquanto executa                    |
-| `gnome-text-editor`                   | Abre o editor de texto do GNOME                                   | Bloqueia o terminal até fechar                                  |
-| `gnome-text-editor &`                 | Abre o editor em background                                       | Terminal fica livre                                             |
-| `kill -9 24628`                       | Mata o processo de PID 24628                                      | `-9` envia SIGKILL (imediato, sem salvar dados)                 |
-| `ps | grep gnome-text-editor`         | Lista processos filtrando por `gnome-text-editor`                 | Útil para encontrar PIDs para matar processos                   |
-| `ps | grep gnome-text-editor &`       | Executa o comando acima em background                             | Incomum rodar `ps` em background                                |
-| `systemd-analyze blame`               | Mostra processos do boot ordenados por tempo de carregamento      | Diagnóstico de inicialização lenta                              |
-| `top`                                 | Monitor de processos em tempo real                                | Use `M` (%MEM), `P` (%CPU), `T` (tempo), `Q` (sair)             |
-| `top -h`                              | Exibe ajuda do comando `top`                                      | Mostra opções e parâmetros disponíveis                          |
+| Comando                              | Copiar                   | Função                                                          | Observação                                                      |
+|--------------------------------------|--------------------------|-----------------------------------------------------------------|----------------------------------------------------------------|
+| `time ls`                             | `time ls`                | Executa `ls` e mede o tempo (real, user, sys)                   | Mede desempenho do comando                                     |
+| `sleep 2`                             | `sleep 2`                | Suspende o terminal por 2 segundos                              | Útil para atrasos em scripts                                   |
+| `sleep 5 ; echo "Olá"`                | `sleep 5 ; echo "Olá"`   | Aguarda 5s e depois exibe "Olá"                                 | `;` executa comandos em sequência                             |
+| `(sleep 5 ; echo "Olá") &`            | `(sleep 5 ; echo "Olá") &` | Aguarda 5s, exibe "Olá" e roda em background                  | `&` permite usar o terminal enquanto executa                   |
+| `gnome-text-editor`                   | `gnome-text-editor`      | Abre o editor de texto do GNOME                                 | Bloqueia o terminal até fechar                                 |
+| `gnome-text-editor &`                 | `gnome-text-editor &`    | Abre o editor em background                                    | Terminal fica livre                                            |
+| `kill -9 24628`                       | `kill -9 24628`          | Mata o processo de PID 24628                                    | `-9` envia SIGKILL (imediato, sem salvar dados)                |
+| `ps \| grep gnome-text-editor`        | `ps \| grep gnome-text-editor` | Lista processos filtrando por `gnome-text-editor`           | Útil para encontrar PIDs para matar processos                  |
+| `ps \| grep gnome-text-editor &`      | `ps \| grep gnome-text-editor &` | Executa o comando acima em background                      | Incomum rodar `ps` em background                              |
+| `systemd-analyze blame`               | `systemd-analyze blame`  | Mostra processos do boot ordenados por tempo de carregamento    | Diagnóstico de inicialização lenta                             |
+| `top`                                 | `top`                    | Monitor de processos em tempo real                              | Use `M` (%MEM), `P` (%CPU), `T` (tempo), `Q` (sair)            |
+| `top -h`                              | `top -h`                 | Exibe ajuda do comando `top`                                    | Mostra opções e parâmetros disponíveis                        |
