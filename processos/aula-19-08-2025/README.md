@@ -49,15 +49,25 @@ Transições: Espera por evento, troca de fatia de tempo, evento atendido → re
 Ciclo de vida melhorado
 
 Novo → criado e admitido.
+
 Pronto → aguardando CPU.
+
 Execução → em processamento.
+
 Aguardando → esperando evento de I/O, timer ou recurso.
+
 Finalizado → encerrado.
 
 Estados no Linux (comando ps ou top):
+
 R – executando
+
 S – espera interrompível
+
 D – espera não-interrompível
+
 T/t – parado
+
 Z – zumbi
+
 X – morto (não deveria aparecer)
