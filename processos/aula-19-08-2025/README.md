@@ -1,4 +1,4 @@
-# Processos - Sistemas operacionais - Aula 19/08/2025
+# Processos e estados - Sistemas operacionais - Aula 19/08/2025
 
 ## Término de processos
 

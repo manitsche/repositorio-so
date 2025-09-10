@@ -1,4 +1,4 @@
-# Processos - Sistemas operacionais - Aula 12/08/2025
+# Processos e troca de contexto - Sistemas operacionais - Aula 12/08/2025
 
 Aula prática para demostrar a diferença de tempo de execução entre os processos.
 
